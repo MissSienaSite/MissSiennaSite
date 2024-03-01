@@ -10,8 +10,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: './index.html',
-        system: './Charters.html',
-        process: './Boat.html'
+        Boat: './Charters.html',
+        Charters: './Boat.html'
       }
     }
   }

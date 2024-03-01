@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 const NavBar: React.FC = () => {
   return (
     <Navbar bg="light" variant="light" expand="md">
-      <Navbar.Brand href="/web">
+      <Navbar.Brand href="/">
         <p>LOGO GOES HERE</p>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
