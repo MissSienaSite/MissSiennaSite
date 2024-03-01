@@ -15,10 +15,10 @@ const NavBar: React.FC = () => {
             Home
           </Nav.Link>
           <Nav.Link href="/Boat" style={{ color: "black" }}>
-            The Boat
+            About Us
           </Nav.Link>
           <Nav.Link href="/Charters" style={{ color: "black" }}>
-            Charters
+            Charters We Offer
           </Nav.Link>
           <Nav.Link href="/Trips" style={{ color: "black" }}>
             Trips
