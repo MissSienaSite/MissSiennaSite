@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const CardComponent: React.FC = () => {
   return (
@@ -11,7 +12,9 @@ const CardComponent: React.FC = () => {
             style={{ backgroundImage: "url('/TunaTrip.jpg')" }}
           >
             <div className="absolute bottom-0 w-full bg-blue-500 py-2 px-4 flex justify-between items-center">
-              <button className="text-white">Book A Trip</button>
+              <Link to="/Charters">
+                <button className="text-white">Book A Trip</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -47,7 +50,9 @@ const CardComponent: React.FC = () => {
             style={{ backgroundImage: "url('/AboutUs.jpg')" }}
           >
             <div className="absolute bottom-0 w-full bg-blue-500 py-2 px-4 flex justify-between items-center">
-              <button className="text-white">About Us</button>
+              <Link to="/Boat">
+                <button className="text-white">About Us</button>
+              </Link>
             </div>
           </div>
         </div>
