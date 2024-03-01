@@ -3,7 +3,7 @@ import { FaCircle } from "react-icons/fa";
 
 const BoatSpecificationsCard: React.FC = () => {
   return (
-    <div className="container-fluid h-auto md:h-80 flex flex-col lg:flex-row items-center justify-center bg-blue-500">
+    <div className="container-fluid h-auto md:h-80 flex flex-col lg:flex-row items-center justify-center bg-blue-500 pb-2">
       {/* Subtitle and Features */}
       <div className="w-full lg:w-1/3 px-8 mt-6 lg:mt-0 text-white">
         <div className="flex flex-col items-center lg:items-start ml-4">
