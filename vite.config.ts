@@ -15,5 +15,6 @@ export default defineConfig({
         Charters: './Boat.html'
       }
     }
-  }
+  },
+  base: process.env.VITE_BASEPATH || '/MissSiennaSite',
 })
