@@ -4,7 +4,7 @@ import BoatSpecificationsCard from "../src/components/BoatPage/BoatSpecs";
 import BoatImages from "../src/components/BoatPage/BoatImages";
 
 const BoatPage: React.FC = () => {
-  return (
+  return ( 
     <>
       <BoatIntro/>
       <BoatSpecificationsCard/>
