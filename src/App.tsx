@@ -10,7 +10,7 @@ function App() {
         <NavBar />
         <AppRouter />
       </div>
-      <Footer />3
+      <Footer />
     </div>
   );
 }
