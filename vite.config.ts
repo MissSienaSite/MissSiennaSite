@@ -16,5 +16,5 @@ export default defineConfig({
       }
     }
   },
-  base: process.env.VITE_BASEPATH || '/MissSiennaSite',
+  base: process.env.VITE_BASE_PATH || '/MissSiennaSite',
 })
