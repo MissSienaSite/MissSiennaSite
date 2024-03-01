@@ -11,13 +11,16 @@ const NavBar: React.FC = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto mr-4">
-          <Nav.Link href="/web" style={{ color: "black" }}>
+          <Nav.Link href="/" style={{ color: "black" }}>
             Home
           </Nav.Link>
-          <Nav.Link href="/web/system" style={{ color: "black" }}>
+          <Nav.Link href="/Boat" style={{ color: "black" }}>
             The Boat
           </Nav.Link>
-          <Nav.Link href="/web/process" style={{ color: "black" }}>
+          <Nav.Link href="/Charters" style={{ color: "black" }}>
+            Charters
+          </Nav.Link>
+          <Nav.Link href="/Trips" style={{ color: "black" }}>
             Trips
           </Nav.Link>
         </Nav>

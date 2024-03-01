@@ -1,11 +1,14 @@
 import React from "react";
-import VideoSection from "../components/video/VideoSection";
+import VideoSection from "../components/HomePage/video/VideoSection";
+import MissionStatement from "../components/HomePage/MissionStatement";
+import CardComponent from "../components/HomePage/ServiceCards";
 
 const HomePage: React.FC = () => {
   return (
     <>
-    <VideoSection/>
-    <p>HOME PAGE</p>
+      <VideoSection/>
+      <MissionStatement/>
+      <CardComponent/>
     </>
   );
 };

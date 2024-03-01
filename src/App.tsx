@@ -1,14 +1,18 @@
-import './App.css'
-import AppRouter from './components/router/Router'
-import NavBar from './components/nav/NavBar'
+import './App.css';
+import AppRouter from './components/router/Router';
+import NavBar from './components/nav/NavBar';
+import Footer from './components/nav/Footer';
 
 function App() {
   return (
-    <>
-      <NavBar/>
-      <AppRouter/>
-    </>
-  )
+    <div className="flex flex-col min-h-screen">
+      <div className="flex-grow">
+        <NavBar />
+        <AppRouter />
+      </div>
+      <Footer />3
+    </div>
+  );
 }
 
-export default App
+export default App;
