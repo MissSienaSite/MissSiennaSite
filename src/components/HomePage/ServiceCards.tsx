@@ -7,7 +7,7 @@ const CardComponent: React.FC = () => {
       <div className="container w-full py-8 ">
         {/* Title and Subtitle */}
         <div className="text-center mb-8">
-          <h1 className="text-3xl font-bold mb-2">What We Do</h1>
+          <h1 className="text-3xl font-bold mb-2">Who We Are</h1>
           <p className="text-lg text-gray-600">
             We are a premier fishing charter offering thrilling trips for up to
             6 passengers. From exciting Striped Bass adventures to deep-sea Tuna
