@@ -1,5 +1,5 @@
-import React from 'react';
-import { FaInstagram, FaFacebook } from 'react-icons/fa';
+import React from "react";
+import { FaInstagram } from "react-icons/fa";
 
 const Footer: React.FC = () => {
   return (
@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto flex flex-col items-center">
         {/* Instagram */}
         <a
-          href="https://www.instagram.com/your-instagram-account"
+          href="https://www.instagram.com/misssiennasportfishing/"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center mb-4"
@@ -15,20 +15,10 @@ const Footer: React.FC = () => {
           <FaInstagram className="text-4xl mr-2" />
           <span className="text-lg">Instagram</span>
         </a>
-
-        {/* Facebook */}
-        <a
-          href="https://www.facebook.com/your-facebook-page"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg mb-4"
-        >
-          <FaFacebook className="text-xl mr-2" />
-          Facebook
-        </a>
-
         {/* Contact Phone Number */}
-        <p className="text-lg">Contact Captain Chris: +1 234 567 890</p>
+        <a href="tel:+19736990449" className="text-lg">
+          Contact Captain Chris: +1 973-699-0449
+        </a>
       </div>
     </footer>
   );

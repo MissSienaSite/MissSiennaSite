@@ -6,9 +6,14 @@ const ContactUS: React.FC = () => {
       <h2 className="text-2xl font-bold mb-10 text-center text-black">
         Call Us To Book Now!
       </h2>
-      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-        Call Now
-      </button>
+      <a
+        href="tel:+19736990449"
+        className="text-blue-500 hover:underline font-bold"
+      >
+        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+          Call Now
+        </button>
+      </a>
       <img src="/logo.jpg" style={{ height: "200px" }} alt="Logo" />
     </div>
   );
