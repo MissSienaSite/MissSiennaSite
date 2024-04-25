@@ -12,9 +12,10 @@ export default defineConfig({
       input: {
         main: './index.html',
         Boat: './Charters.html',
-        Charters: './Boat.html'
+        Charters: './Boat.html',
+        Trips:'./Trips.html'
       }
     }
   },
-  base: process.env.VITE_BASE_PATH || '/MissSiennaSite',
+  //base: process.env.VITE_BASE_PATH || '/MissSiennaSite',
 })

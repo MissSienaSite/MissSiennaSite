@@ -11,35 +11,47 @@ const BoatSpecificationsCard: React.FC = () => {
           <ul className="list-disc">
             <li className="flex items-center mb-2">
               <FaCircle className="h-6 w-6 mr-2" />
-              Length: 32′ 7″
+              Contender 32ST
             </li>
             <li className="flex items-center mb-2">
               <FaCircle className="h-6 w-6 mr-2" />
-              Beam: 9′ 8″
+              Twin Yamaha 300
             </li>
             <li className="flex items-center mb-2">
               <FaCircle className="h-6 w-6 mr-2" />
-              Draft: 20″
+              Cruise speed of 35mph with 60mph top speed
             </li>
             <li className="flex items-center mb-2">
               <FaCircle className="h-6 w-6 mr-2" />
-              Weight: 5,850 lbs.
+              Dual Livewell
             </li>
             <li className="flex items-center mb-2">
               <FaCircle className="h-6 w-6 mr-2" />
-              Fuel: 310 gal.
+              Seadek
             </li>
             <li className="flex items-center mb-2">
               <FaCircle className="h-6 w-6 mr-2" />
-              Deadrise: 24.5 Deg
+              Night Track – night vision
             </li>
             <li className="flex items-center mb-2">
               <FaCircle className="h-6 w-6 mr-2" />
-              Max HP: 800 HP
+              Cmor Mapping electronics
             </li>
             <li className="flex items-center mb-2">
               <FaCircle className="h-6 w-6 mr-2" />
-              Weight (Loaded): 11,650 lbs
+              Satellite Phone and Garmin InReach
+            </li>
+            <li className="flex items-center mb-2">
+              <FaCircle className="h-6 w-6 mr-2" />
+              Garmin radar/sonar/gps
+            </li>
+            <li className="flex items-center mb-2">
+              <FaCircle className="h-6 w-6 mr-2" />
+              Rhodan Trolling motor
+            </li>
+            <li className="flex items-center mb-2">
+              <FaCircle className="h-6 w-6 mr-2" />
+              Custom Rods, Shimano tackle, LP electric reels
             </li>
           </ul>
         </div>

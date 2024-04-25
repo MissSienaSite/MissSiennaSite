@@ -4,9 +4,9 @@ import Navbar from "react-bootstrap/Navbar";
 
 const NavBar: React.FC = () => {
   return (
-    <Navbar bg="light" variant="light" expand="md">
-      <Navbar.Brand href="/">
-        <p>LOGO GOES HERE</p>
+    <Navbar bg="white" variant="light" expand="md" className="m-auto">
+      <Navbar.Brand href="/" className="mx-auto">
+        <img src="/logo.jpg" style={{ height: "170px" }} alt="Logo" />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -21,7 +21,7 @@ const NavBar: React.FC = () => {
             Charters We Offer
           </Nav.Link>
           <Nav.Link href="/Trips" style={{ color: "black" }}>
-            Trips
+            Recent trips
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
